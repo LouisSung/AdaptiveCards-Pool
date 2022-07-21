@@ -1,0 +1,22 @@
+{
+  "name": "adaptivecards-pool",
+  "version": "0.1.0",
+  "description": "Provide a card pool for adaptive cards caching",
+  "main": "adaptivecards-pool.js",
+  "scripts": {
+    "build": "tsc adaptivecards-pool.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Louis Sung <me@louissung.com>",
+  "license": "MIT",
+  "dependencies": {
+    "adaptivecards": "~2.10.0",
+    "jsdom": "~19.0.0",
+    "jsdom-global": "~3.0.2"
+  },
+  "devDependencies": {
+    "@types/jsdom": "~16.2.15",
+    "@types/node": "~18.0.6",
+    "ts-node": "^10.9.1"
+  }
+}
